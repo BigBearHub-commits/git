@@ -334,6 +334,7 @@ struct rev_info {
 	/* range-diff */
 	const char *rdiff1;
 	const char *rdiff2;
+	struct strvec rdiff_other_arg;
 	int creation_factor;
 	const char *rdiff_title;
 
