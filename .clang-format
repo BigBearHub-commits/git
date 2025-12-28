@@ -226,3 +226,4 @@ SortIncludes: false
 # single-statement bodies of statements but keeps braces if one side of
 # if/else if/.../else cascade has multi-statement body.
 RemoveBracesLLVM: true
+
